@@ -1,0 +1,47 @@
+name WarmNote谱面模板
+duration_ms 12000
+instrument 10005
+1464750897
+1 2 4
+
+# WarmNote Score Param Template
+#
+# 前五行是固定顺序的文件头：
+# 1. name：歌曲名称，可以包含空格。
+# 2. duration_ms：预计演奏时长，单位为毫秒。
+# 3. instrument：游戏内乐器编号；10005目前表示横笛。
+# 4. 1464750897：格式魔数，必须保持不变。
+# 5. 版本 段落数量 记录总数；本模板为版本1、2个段落、共4条记录。
+#
+# meta依次表示：BPM、每条记录的拍数、拍号分母、单次动作持续时间（毫秒）。
+# 每条记录的拍数必须与meta中的第二个数字一致。
+meta 80 4 4 80
+
+# layout描述游戏键位。目前由Score检查声明是否存在，具体含义由动作层解释。
+# 横笛只有Q-U和A-J两排共14个音符键。
+layout QWERTYU ASDFGHJ
+
+# section格式：section 段落名 本段记录数量。
+section part1 2
+
+# 动作记录格式：
+# 动作块数量 记录名 : 动作类型 拍数 第1拍 第2拍 第3拍 第4拍
+#
+# KeyCodeInput载荷规则：
+# Q       单独按下Q。
+# Q+E     Q与E同时按下。
+# W,E     在同一拍内依次按下W和E，解析器会将它们均匀分布在这一拍中。
+# -       当前拍休止。
+1 part1_001 : KeyCodeInput 4 Q Q+E W,E -
+
+# 同一条记录可以用英文分号分隔多个动作块，冒号前的数量必须同步修改。
+# Tremolo表示横笛颤音，当前载荷只允许Q-U或A-J中的单个音符键；执行时会按Shift+音符键。
+2 part1_002 : KeyCodeInput 4 A - D -; Tremolo 4 - Q - A
+
+section part2 2
+
+# 三个或更多按键仍用+连接；一拍内连续动作仍用逗号分隔。
+1 part2_001 : KeyCodeInput 4 Q+W+E - A,S,D,F G
+
+# 记录名必须在整份谱面中唯一，并建议使用“段落_序号”的形式，方便指定演奏起止位置。
+1 part2_002 : KeyCodeInput 4 - - - Q
