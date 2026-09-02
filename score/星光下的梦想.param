@@ -1,0 +1,51 @@
+name 星光下的梦想
+duration_ms 145714
+instrument 10001
+1464750897
+1 2 34
+# WarmNote Score Param
+# 来源：https://www.bilibili.com/opus/1195982580473659394
+# BPM按谱面总拍数和原演奏视频时长估算
+# 转换规则：/分拍，括号和方括号表示组合键，其他字母表示拍内连续动作
+meta 58 4 4 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+# part1：第一段
+section part1 18
+1 part1_001 : KeyCodeInput 4 N+D+Q,Q E,Q B+S+J,J D
+1 part1_002 : KeyCodeInput 4 V+A+H,H Q,H Z+B+G -
+1 part1_003 : KeyCodeInput 4 X+N+F,F H,F Z+D,B+H D+Q
+1 part1_004 : KeyCodeInput 4 X+N+Q,H J,Q C+J,M D+E
+1 part1_005 : KeyCodeInput 4 N+Q,D+Q H+E,Q B+J,X+J M+D
+1 part1_006 : KeyCodeInput 4 V+H,A+H F+Q,H Z+G,B D
+1 part1_007 : KeyCodeInput 4 X+F,N+F S+H,F Z+D,B+H D+Q
+1 part1_008 : KeyCodeInput 4 X+Q,N+E C+M+J,D N+H,C A+D
+1 part1_009 : KeyCodeInput 4 N+Q,D H+Y,D,T X+T,N,R S+R,N
+1 part1_010 : KeyCodeInput 4 B+T,S+W G+T,S+Y Z+E,B D,B,E
+1 part1_011 : KeyCodeInput 4 X+E,N,W S+W,W N+W,C,Q A+Q,Q
+1 part1_012 : KeyCodeInput 4 X+Q,N+H S+W,N,E C,J,M D
+1 part1_013 : KeyCodeInput 4 N+D+Q,Q E,Q B+S+J,J D
+1 part1_014 : KeyCodeInput 4 V+A+H,H Q,H Z+B+G -
+1 part1_015 : KeyCodeInput 4 X+N+F,F H,F Z+D,B+H D+Q
+1 part1_016 : KeyCodeInput 4 X+Q,N+E C+M+J,D N+H,C A+D
+1 part1_017 : KeyCodeInput 4 X+F,N+F S+H,F Z+D,B+H D+Q
+1 part1_018 : KeyCodeInput 4 X+Q,N+E C+M+J,D N+H,C A+D
+
+# part2：第二段
+section part2 16
+1 part2_001 : KeyCodeInput 4 N+Q,D+Q H+E,D,Q B+J,X+J M+D,X
+1 part2_002 : KeyCodeInput 4 V+H,A+H F+Q,A,H Z+G,B D,B
+1 part2_003 : KeyCodeInput 4 X,F,N,F S+H,N+F Z+D,B+H D+Q,B
+1 part2_004 : KeyCodeInput 4 X,Q,N,E C+M+J,D N+H,C A+D
+1 part2_005 : KeyCodeInput 4 N+Q,D H+Y,D,T X+T,N,R S+R,N
+1 part2_006 : KeyCodeInput 4 B+T,S+W G+T,S+Y Z+E,B D,B,E
+1 part2_007 : KeyCodeInput 4 X+E,N,W S+W,W N+W,C,Q A+Q,Q
+1 part2_008 : KeyCodeInput 4 X+Q,N+H S+W,N,E C,J,M D
+1 part2_009 : KeyCodeInput 4 N+Q,D+Q H+E,D,Q B+J,X+J M+D,X
+1 part2_010 : KeyCodeInput 4 V+H,A+H F+Q,A,H Z+G,B D,B
+1 part2_011 : KeyCodeInput 4 X+F,N+F S+H,N,F Z+D,B+H D+Q,B
+1 part2_012 : KeyCodeInput 4 X+Q,N+E C+M+J,D N+H,C A+D
+1 part2_013 : KeyCodeInput 4 X+F,N+F S+H,N,F Z+D,B+H D+Q,B
+1 part2_014 : KeyCodeInput 4 X+Q,N S+E,N C+M+J -
+1 part2_015 : KeyCodeInput 4 - D N+H,C A,D
+1 part2_016 : KeyCodeInput 4 - A+D+H - -

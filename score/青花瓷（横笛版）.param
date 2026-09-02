@@ -1,0 +1,123 @@
+name 青花瓷（横笛版）
+duration_ms 240000
+instrument 10005
+1464750897
+1 7 89
+# WarmNote Score Param
+# 根据用户提供的《青花瓷》键位谱转换
+# 反复段已展开为线性播放结构
+# 横笛仅使用Q-U与A-J两排14键，低音与和弦已整理为单旋律
+# 原谱中的[TY]快速交替改为按住Shift演奏T音的Tremolo动作
+# 转换规则：/分拍，括号表示组合键，其他连续字母表示拍内连续动作
+meta 89 4 4 80
+layout QWERTYU ASDFGHJ
+
+# part1：前奏
+section part1 9
+1 part1_001 : KeyCodeInput 4 T,Y T,E W,E -
+1 part1_002 : KeyCodeInput 4 W,Q H,S D W,E
+1 part1_003 : KeyCodeInput 4 W,Q G,S D W,E
+1 part1_004 : KeyCodeInput 4 W,Q H,D Q,W H
+1 part1_005 : KeyCodeInput 4 E A,S Q,W E,T
+1 part1_006 : KeyCodeInput 4 T E,S W,G Q
+1 part1_007 : KeyCodeInput 4 W,Q H,D Q,W E,E
+2 part1_008 : Tremolo 4 T - - -; KeyCodeInput 4 - - A S,D
+1 part1_009 : KeyCodeInput 4 G - W Q,H
+
+# part2：第一次主段
+section part2 31
+1 part2_001 : KeyCodeInput 4 Q Q,H Q Q,H
+1 part2_002 : KeyCodeInput 4 Q,H G,S D,W Q,H
+1 part2_003 : KeyCodeInput 4 Q Q,H Q Q,E
+1 part2_004 : KeyCodeInput 4 W,Q Q,S D,G H,E
+1 part2_005 : KeyCodeInput 4 E,A E,W E E,W
+1 part2_006 : KeyCodeInput 4 E,T S,E G,E E,E
+1 part2_007 : KeyCodeInput 4 W,W W,W W Q,E
+1 part2_008 : KeyCodeInput 4 W S,D G,W Q,H
+1 part2_009 : KeyCodeInput 4 Q Q,H Q Q,H
+1 part2_010 : KeyCodeInput 4 Q,H G,S D,G H,E
+1 part2_011 : KeyCodeInput 4 T T,E T T,E
+1 part2_012 : KeyCodeInput 4 W,Q Q,S D,W Q,W
+1 part2_013 : KeyCodeInput 4 E,W W,Q W Q,H
+1 part2_014 : KeyCodeInput 4 W,Q Q,H Q Q,W
+1 part2_015 : KeyCodeInput 4 Q A S,A S,D
+1 part2_016 : KeyCodeInput 4 R E,S W,T T,E
+1 part2_017 : KeyCodeInput 4 W,E H,D W,E T,E
+1 part2_018 : KeyCodeInput 4 W S,D G,T T,E
+1 part2_019 : KeyCodeInput 4 W,E G,D W,E T,W
+1 part2_020 : KeyCodeInput 4 Q A,S D,Q W,E
+1 part2_021 : KeyCodeInput 4 T,Y T,E T,E E,W
+1 part2_022 : KeyCodeInput 4 W S,D G,Q W,Q
+1 part2_023 : KeyCodeInput 4 W Q,W D,E G,T
+1 part2_024 : KeyCodeInput 4 E A,S D,T T,E
+1 part2_025 : KeyCodeInput 4 W,E H,D W,E T,E
+1 part2_026 : KeyCodeInput 4 W S,D G,T T,E
+1 part2_027 : KeyCodeInput 4 W,E G,D W,E T,W
+1 part2_028 : KeyCodeInput 4 Q A,S D,Q W,E
+1 part2_029 : KeyCodeInput 4 T,Y T,E T,E E,W
+1 part2_030 : KeyCodeInput 4 W S,G E W,W
+1 part2_031 : KeyCodeInput 4 Q A S,A S,D
+
+# part3：第一遍收束
+section part3 1
+1 part3_001 : KeyCodeInput 4 G - - E,T
+
+# part4：反复连接段
+section part4 8
+1 part4_001 : KeyCodeInput 4 Y,A S,D G T,E
+1 part4_002 : KeyCodeInput 4 W S,D G Q,W
+1 part4_003 : KeyCodeInput 4 T S,D G T,W
+1 part4_004 : KeyCodeInput 4 Q A,S D Q,W
+1 part4_005 : KeyCodeInput 4 E,A W,D Q,D H,A
+1 part4_006 : KeyCodeInput 4 Q W,D E,D Y
+2 part4_007 : Tremolo 4 T - - -; KeyCodeInput 4 - - A S,D
+1 part4_008 : KeyCodeInput 4 G - W Q,H
+
+# part5：第二次主段
+section part5 31
+1 part5_001 : KeyCodeInput 4 Q Q,H Q Q,H
+1 part5_002 : KeyCodeInput 4 Q,H G,S D,W Q,H
+1 part5_003 : KeyCodeInput 4 Q Q,H Q Q,E
+1 part5_004 : KeyCodeInput 4 W,Q Q,S D,G H,E
+1 part5_005 : KeyCodeInput 4 E,A E,W E E,W
+1 part5_006 : KeyCodeInput 4 E,T S,E G,E E,E
+1 part5_007 : KeyCodeInput 4 W,W W,W W Q,E
+1 part5_008 : KeyCodeInput 4 W S,D G,W Q,H
+1 part5_009 : KeyCodeInput 4 Q Q,H Q Q,H
+1 part5_010 : KeyCodeInput 4 Q,H G,S D,G H,E
+1 part5_011 : KeyCodeInput 4 T T,E T T,E
+1 part5_012 : KeyCodeInput 4 W,Q Q,S D,W Q,W
+1 part5_013 : KeyCodeInput 4 E,W W,Q W Q,H
+1 part5_014 : KeyCodeInput 4 W,Q Q,H Q Q,W
+1 part5_015 : KeyCodeInput 4 Q A S,A S,D
+1 part5_016 : KeyCodeInput 4 R E,S W,T T,E
+1 part5_017 : KeyCodeInput 4 W,E H,D W,E T,E
+1 part5_018 : KeyCodeInput 4 W S,D G,T T,E
+1 part5_019 : KeyCodeInput 4 W,E G,D W,E T,W
+1 part5_020 : KeyCodeInput 4 Q A,S D,Q W,E
+1 part5_021 : KeyCodeInput 4 T,Y T,E T,E E,W
+1 part5_022 : KeyCodeInput 4 W S,D G,Q W,Q
+1 part5_023 : KeyCodeInput 4 W Q,W D,E G,T
+1 part5_024 : KeyCodeInput 4 E A,S D,T T,E
+1 part5_025 : KeyCodeInput 4 W,E H,D W,E T,E
+1 part5_026 : KeyCodeInput 4 W S,D G,T T,E
+1 part5_027 : KeyCodeInput 4 W,E G,D W,E T,W
+1 part5_028 : KeyCodeInput 4 Q A,S D,Q W,E
+1 part5_029 : KeyCodeInput 4 T,Y T,E T,E E,W
+1 part5_030 : KeyCodeInput 4 W S,G E W,W
+1 part5_031 : KeyCodeInput 4 Q A S,A S,D
+
+# part6：第二遍收束
+section part6 1
+1 part6_001 : KeyCodeInput 4 G - - -
+
+# part7：结尾
+section part7 8
+1 part7_001 : KeyCodeInput 4 W,E W,E T,E T,E
+1 part7_002 : KeyCodeInput 4 W W,E H G
+1 part7_003 : KeyCodeInput 4 W,E W,E T,E T,E
+1 part7_004 : KeyCodeInput 4 W,A W,E H G
+1 part7_005 : KeyCodeInput 4 W,E W,E T,E T,E
+1 part7_006 : KeyCodeInput 4 W W,E H G
+1 part7_007 : KeyCodeInput 4 W,E W,E T,E T,E
+1 part7_008 : KeyCodeInput 4 W - - -

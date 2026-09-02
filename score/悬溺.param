@@ -1,0 +1,88 @@
+name 悬溺
+duration_ms 194783
+instrument 10001
+1464750897
+1 7 56
+# WarmNote Score Param
+# 来源：https://www.bilibili.com/opus/834823290255048791
+# BPM按谱面总拍数和原演奏视频时长估算
+# 转换规则：/分拍，括号和方括号表示组合键，其他字母表示拍内连续动作
+meta 72 4 4 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+# part1：前奏
+section part1 8
+1 part1_001 : KeyCodeInput 4 V+N+D+E,W,Q A+D,H,G A+D+H A+D+E,T,T,E
+1 part1_002 : KeyCodeInput 4 B+M+D,Y,T M+D,R,T M+D M+D+R,R,T
+1 part1_003 : KeyCodeInput 4 C+B+D,W,Q M+D,T,R M+D+T M+D+R,R,T
+1 part1_004 : KeyCodeInput 4 N+A+D,Y A+D,W,E A+D A+D+W,T,E
+1 part1_005 : KeyCodeInput 4 V+N+D,W,Q A+D,Y,E A+D+W A+D+E,T,T,E
+1 part1_006 : KeyCodeInput 4 B+M+D,Y,T M+D,W,E M+D M+D+E,T,T,E
+1 part1_007 : KeyCodeInput 4 C+B+D,T,T M+D,Y,E M+D+W M+D+E,T,W,E
+1 part1_008 : KeyCodeInput 4 N+A+D+W,E,H A+D,W,E A+D A+D+W,W,E
+
+# part2：主歌
+section part2 8
+1 part2_001 : KeyCodeInput 4 V+N+D A+D,Q,N+Q Q,J,V+J,H A+D+H,V+G,S
+1 part2_002 : KeyCodeInput 4 B+M+D,S M+D,M B M+D,B
+1 part2_003 : KeyCodeInput 4 C+B+D M+D,G,G,M+G G,H,B,H M+D,B+D,D
+1 part2_004 : KeyCodeInput 4 C+N+A A+D,N C A+D,N
+1 part2_005 : KeyCodeInput 4 V+N+D A+D,H,H,N+E E,W,V,W A+D,W,V+Q,W
+1 part2_006 : KeyCodeInput 4 B+M M+D,M B M+D,B
+1 part2_007 : KeyCodeInput 4 C+B+D+W,Q,W M+D,M D,B+J,J M+D+J,H,B,H
+1 part2_008 : KeyCodeInput 4 C+N+A,N A+D,A,N - Q,J,H
+
+# part3：副歌
+section part3 8
+1 part3_001 : KeyCodeInput 4 Z+V+D+H,Y,V+T,E A+D+W,E,V+H Y,V+T,E A+D+W,E,V+H
+1 part3_002 : KeyCodeInput 4 X+B+D+H,Y,B+T,E M+D+W,E,B+H Q,B M+D,B
+1 part3_003 : KeyCodeInput 4 C+B+D+H,Y,B+T,E M+D+W,E,B+H Y,B+T,E M+D+W,E,B+H
+1 part3_004 : KeyCodeInput 4 C+N+A+H,Y,N+T,E A+D+W,E,N+H Q,N+H,H B+A+Q,B+M+J
+1 part3_005 : KeyCodeInput 4 Z+V+D+H,Y,V+T,E A+D+W,E,V+H Y,V+T,E A+D+W,E,V+H
+1 part3_006 : KeyCodeInput 4 X+B+D+H,Y,B+T,E M+D+W,E,B+H Q,B M+D,B
+1 part3_007 : KeyCodeInput 4 C+B+D+H,Y,B+T,E M+D+W,E,B+H Y,B+T,E M+D+W,E,B+H
+1 part3_008 : KeyCodeInput 4 C+N+A+H,Y,N+T,E A+D+W,E,N+H Q,N B+A,B+M
+
+# part4：间奏
+section part4 8
+1 part4_001 : KeyCodeInput 4 V+A+D+H - - H+E
+1 part4_002 : KeyCodeInput 4 B+M+D+J+W,S G,T S,G T,Q,W
+1 part4_003 : KeyCodeInput 4 C+B+D+G+W,S G,W - -
+1 part4_004 : KeyCodeInput 4 N+A+D+H - N,S,H S,N
+1 part4_005 : KeyCodeInput 4 V+N+D,W,Q Y,E W E,T,T,E
+1 part4_006 : KeyCodeInput 4 B+M+D,Y,T W,E - E,T,T,E
+1 part4_007 : KeyCodeInput 4 C+B+D,T,T Y,E W E,T,W,E
+1 part4_008 : KeyCodeInput 4 N+A+D+W,E,H A+D,W,E A+D A+D+W,A+W,N+E,C
+
+# part5：主歌
+section part5 8
+1 part5_001 : KeyCodeInput 4 V+N+D A+D,Q,N+Q Q,J,V+J,H A+D+H,V+G,S
+1 part5_002 : KeyCodeInput 4 B+M+D,S M+D,M B M+D,B
+1 part5_003 : KeyCodeInput 4 C+B+D M+D,G,G,M+G G,H,B,H M+D,B+D,D
+1 part5_004 : KeyCodeInput 4 C+N+A A+D,N C A+D,N
+1 part5_005 : KeyCodeInput 4 V+N+D A+D,H,H,N+E E,W,V,W A+D,W,V,W
+1 part5_006 : KeyCodeInput 4 B+M,Q,J M+D,M B M+D,B
+1 part5_007 : KeyCodeInput 4 C+B+D+W,Q,W M+D,M D,B+J,J M+D+J,H,B,H
+1 part5_008 : KeyCodeInput 4 C+N+A,N A+D,A,N - Z+C+N
+
+# part6：副歌
+section part6 8
+1 part6_001 : KeyCodeInput 4 Z+V+D+H,Y,V+T,E A+D+W,E,V+H Y,V+T,E A+D+W,E,V+H
+1 part6_002 : KeyCodeInput 4 X+B+D+H,Y,B+T,E M+D+W,E,B+H Q,B M+D,B
+1 part6_003 : KeyCodeInput 4 C+B+D+H,Y,B+T,E M+D+W,E,B+H Y,B+T,E M+D+W,E,B+H
+1 part6_004 : KeyCodeInput 4 C+N+A+H,Y,N+T,E A+D+W,E,N+H Q,N+H,H B+A+Q,B+M+J
+1 part6_005 : KeyCodeInput 4 Z+V+D+H,Y,V+T,E A+D+W,E,V+H Y,V+T,E A+D+W,E,V+H
+1 part6_006 : KeyCodeInput 4 X+B+D+H,Y,B+T,E M+D+W,E,B+H Q,B M+D,B
+1 part6_007 : KeyCodeInput 4 C+B+D+H,Y,B+T,E M+D+W,E,B+H Y,B+T,E M+D+W,E,B+H
+1 part6_008 : KeyCodeInput 4 C+N+A+H,Y,N+T,E A+D+W,E,N+H Q,N B+A,B+M
+
+# part7：结尾
+section part7 8
+1 part7_001 : KeyCodeInput 4 Z+V+D,Q+E,V+Q+E A+D,V+Q+E V A+D+Q+E,V
+1 part7_002 : KeyCodeInput 4 X+B+D,J+W,B+J+W M+D,B+J+W B M+D+J+W,B
+1 part7_003 : KeyCodeInput 4 C+B+D,J+W,B+J+W M+D,B+J+W B M+D+J+W,B
+1 part7_004 : KeyCodeInput 4 C+N+A,H+Q,N+H+Q A+D,N+H+Q N B+A+J+W,B+M
+1 part7_005 : KeyCodeInput 4 Z+V+D,Q+E,V+Q+E A+D,V+Q+E V A+D+Q+E,V
+1 part7_006 : KeyCodeInput 4 X+B+D,J+W,B+J+W M+D,B+J+W B M+D+J+W,B
+1 part7_007 : KeyCodeInput 4 C+B+D,J+W,B+J+W M+D,B+J+W B M+D+J+W,B
+1 part7_008 : KeyCodeInput 4 C+N+A,H+Q,N+H+Q A+D,N+A+D+H - -

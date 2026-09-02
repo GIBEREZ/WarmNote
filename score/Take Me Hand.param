@@ -1,0 +1,125 @@
+name Take Me Hand
+duration_ms 176364
+instrument 10001
+1464750897
+1 9 97
+# WarmNote Score Param
+# 转换自 Take me hand（键盘）.txt
+# 转换规则：/分拍，空格表示拍内连续动作，括号表示组合键
+meta 132 4 4 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+section part1 9
+1 part1_001 : KeyCodeInput 4 - - - E,Q
+1 part1_002 : KeyCodeInput 4 V+W A,H F,A E,Q
+1 part1_003 : KeyCodeInput 4 B+W S,E G,S E,Q
+1 part1_004 : KeyCodeInput 4 N+W A,H D,A E,Q
+1 part1_005 : KeyCodeInput 4 N+W A,E D,A E,Q
+1 part1_006 : KeyCodeInput 4 V+W A,H F,A E,Q
+1 part1_007 : KeyCodeInput 4 B+W S,E G,S E,Q
+1 part1_008 : KeyCodeInput 4 N+W A,H D,A E,Q
+1 part1_009 : KeyCodeInput 4 N+W A,E H -
+
+section part2 8
+1 part2_001 : KeyCodeInput 4 V,A T,Q G A,Q
+1 part2_002 : KeyCodeInput 4 B,S T,J G S,J
+1 part2_003 : KeyCodeInput 4 N,D T,Q G D,Q
+1 part2_004 : KeyCodeInput 4 N,D T,Q W D,E
+1 part2_005 : KeyCodeInput 4 V,A T,Q G A,Q
+1 part2_006 : KeyCodeInput 4 B,S T,J G S,J
+1 part2_007 : KeyCodeInput 4 N,D T,Q G D,Q
+1 part2_008 : KeyCodeInput 4 N,D T,Q W D+E,Q
+
+section part3 16
+1 part3_001 : KeyCodeInput 4 V+W,A F,H A E,Q
+1 part3_002 : KeyCodeInput 4 B+W,S G,E S E,Q
+1 part3_003 : KeyCodeInput 4 N+W,A D,H A E,Q
+1 part3_004 : KeyCodeInput 4 N+W,A D,E A E,Q
+1 part3_005 : KeyCodeInput 4 V+W,A F,H A E,Q
+1 part3_006 : KeyCodeInput 4 B+W,S G,E S E,Q
+1 part3_007 : KeyCodeInput 4 N+W,A D,H A E,Q
+1 part3_008 : KeyCodeInput 4 N+W,A D,E A E,Q
+1 part3_009 : KeyCodeInput 4 V+W,Z N,A+H V E,Q
+1 part3_010 : KeyCodeInput 4 B+W,X M,S+E B E,Q
+1 part3_011 : KeyCodeInput 4 N+W,C A,D+H N E,Q
+1 part3_012 : KeyCodeInput 4 N+W,C A,D+E N E,Q
+1 part3_013 : KeyCodeInput 4 V+W,Z N,A+H V E,Q
+1 part3_014 : KeyCodeInput 4 B+W,X M,S+E B E,Q
+1 part3_015 : KeyCodeInput 4 N+W,C A,D+H N E,Q
+1 part3_016 : KeyCodeInput 4 N+A+D+W H E T
+
+section part4 16
+1 part4_001 : KeyCodeInput 4 V+Q,Z N,A E T
+1 part4_002 : KeyCodeInput 4 B+W,X M,S E T
+1 part4_003 : KeyCodeInput 4 N+Q,C A,D+Q - J,Q
+1 part4_004 : KeyCodeInput 4 N,C A,D E T
+1 part4_005 : KeyCodeInput 4 V+Q,Z N,A E T
+1 part4_006 : KeyCodeInput 4 B+W,X M,S E T
+1 part4_007 : KeyCodeInput 4 N+Q,C M,A C M,A
+1 part4_008 : KeyCodeInput 4 N,C M,A Q J
+1 part4_009 : KeyCodeInput 4 V+H,Z N,A V Q,J
+1 part4_010 : KeyCodeInput 4 B,X M,S B W
+1 part4_011 : KeyCodeInput 4 N+W,C A,D+Q N J,Q
+1 part4_012 : KeyCodeInput 4 N,C M,A J G
+1 part4_013 : KeyCodeInput 4 V+H,Z N,A V Q
+1 part4_014 : KeyCodeInput 4 B+J,X M,S B W
+1 part4_015 : KeyCodeInput 4 N+Q,C M,A C M,A
+1 part4_016 : KeyCodeInput 4 - - - E,Q
+
+section part5 8
+1 part5_001 : KeyCodeInput 4 V+W,Z N,A+H V E
+1 part5_002 : KeyCodeInput 4 B+W,X M+W,S+E B E,Q
+1 part5_003 : KeyCodeInput 4 N+W,C A,D+Q N E,Q
+1 part5_004 : KeyCodeInput 4 N+W,C A+W,D+Q N E,Q
+1 part5_005 : KeyCodeInput 4 V+W,Z N,A+H V E,Q
+1 part5_006 : KeyCodeInput 4 B+W,X M,S+E B E,Q
+1 part5_007 : KeyCodeInput 4 N+W,C A,D+Q N E,Q
+1 part5_008 : KeyCodeInput 4 N+W,C A,D+Q N -
+
+section part6 8
+1 part6_001 : KeyCodeInput 4 V,A F,H B,S G,J
+1 part6_002 : KeyCodeInput 4 N,D H,J Q,J H,D
+1 part6_003 : KeyCodeInput 4 V,A F,H B,S G,J
+1 part6_004 : KeyCodeInput 4 N,D H,Q J H,D
+1 part6_005 : KeyCodeInput 4 V,A F,H B,S G,J
+1 part6_006 : KeyCodeInput 4 N,D H,J Q,J H,D
+1 part6_007 : KeyCodeInput 4 V,A F,H B,S G,J
+1 part6_008 : KeyCodeInput 4 N,C N,A Q W
+
+section part7 16
+1 part7_001 : KeyCodeInput 4 Z+E B S E
+1 part7_002 : KeyCodeInput 4 B+T S G+W J
+1 part7_003 : KeyCodeInput 4 N+Q D J D
+1 part7_004 : KeyCodeInput 4 N D H+Q W
+1 part7_005 : KeyCodeInput 4 Z+E B S E
+1 part7_006 : KeyCodeInput 4 B+T S G+W J
+1 part7_007 : KeyCodeInput 4 N+Q D J D
+1 part7_008 : KeyCodeInput 4 N D H+Q T
+1 part7_009 : KeyCodeInput 4 V+T A F T
+1 part7_010 : KeyCodeInput 4 B+R S+E G+W E
+1 part7_011 : KeyCodeInput 4 N+W C+Q M C+J
+1 part7_012 : KeyCodeInput 4 N+Q C N+J G
+1 part7_013 : KeyCodeInput 4 V+H A F Q
+1 part7_014 : KeyCodeInput 4 B+J S G+Q W
+1 part7_015 : KeyCodeInput 4 N+Q D H D
+1 part7_016 : KeyCodeInput 4 C+N - - E,Q
+
+section part8 8
+1 part8_001 : KeyCodeInput 4 V+W,Z N,A+H V E
+1 part8_002 : KeyCodeInput 4 B+W,X M+W,S+E B E,Q
+1 part8_003 : KeyCodeInput 4 N+W,C A,D+Q N E,Q
+1 part8_004 : KeyCodeInput 4 N+W,C A+W,D+Q N E,Q
+1 part8_005 : KeyCodeInput 4 V+W,Z N,A+H V E,Q
+1 part8_006 : KeyCodeInput 4 B+W,X M,S+E B E,Q
+1 part8_007 : KeyCodeInput 4 N+W,C A,D+Q N E,Q
+1 part8_008 : KeyCodeInput 4 N+W,C A,D+Q N -
+
+section part9 8
+1 part9_001 : KeyCodeInput 4 V+W,Z N,A+H V E
+1 part9_002 : KeyCodeInput 4 B+W,X M+W,S+E B E,Q
+1 part9_003 : KeyCodeInput 4 N+W,C A,D+Q N E,Q
+1 part9_004 : KeyCodeInput 4 N+W,C A+W,D+Q N E,Q
+1 part9_005 : KeyCodeInput 4 V+W,Z N,A+H V E,Q
+1 part9_006 : KeyCodeInput 4 B+W,X M,S+E B E,Q
+1 part9_007 : KeyCodeInput 4 N+W,C A,D+Q N E,Q
+1 part9_008 : KeyCodeInput 4 N+W,C A,D+Q N -

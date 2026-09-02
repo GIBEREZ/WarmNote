@@ -1,0 +1,136 @@
+name C大调前奏曲与赋格 BWV 846
+duration_ms 236000
+instrument 10001
+1464750897
+1 2 118
+# WarmNote Score Param
+# 来源：well-tempered-clavier-i_bwv-846_(c)sankey.mid
+# 原MIDI为4/4拍、四分音符120 BPM；本谱使用16个十六分时间格，480格/分钟与原速度等价
+# 游戏仅有三组自然音：C2-B2上移八度、C6下移八度，升降音近似到相邻的上方自然音
+# 同一时间格中的多个音符使用+连接，表示同时按下
+meta 480 16 16 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+# part1：前奏曲
+section part1 58
+1 part1_001 : KeyCodeInput 16 - A D - G Q - E - G Q - E A - D
+1 part1_002 : KeyCodeInput 16 G - Q - E G - Q E - A - S H - W
+1 part1_003 : KeyCodeInput 16 R - H W - R - A S - H W - R H -
+1 part1_004 : KeyCodeInput 16 W - R M - S G - W - R G - W R -
+1 part1_005 : KeyCodeInput 16 M S - G - W R - G W - R - A D -
+1 part1_006 : KeyCodeInput 16 G Q - E G - Q - E A - D G - Q E
+1 part1_007 : KeyCodeInput 16 - G - Q E - A D - H - E Y - H E
+1 part1_008 : KeyCodeInput 16 - Y A - D - H E - Y H - E Y - A
+1 part1_009 : KeyCodeInput 16 - S G - H W - G - H W - A S - G
+1 part1_010 : KeyCodeInput 16 H - W - G H - W M - S - G W - T
+1 part1_011 : KeyCodeInput 16 G - W T - M - S G - W T - G W -
+1 part1_012 : KeyCodeInput 16 T - M A - D G - Q - D G - Q M -
+1 part1_013 : KeyCodeInput 16 A D - G - Q D - G Q - N A - D -
+1 part1_014 : KeyCodeInput 16 G Q - D G - Q - N A - D G - Q D
+1 part1_015 : KeyCodeInput 16 - G - Q X - N S - G - Q S - G Q
+1 part1_016 : KeyCodeInput 16 - X N - S - G Q - S G - Q B - M
+1 part1_017 : KeyCodeInput 16 - S G - J S - G - J B - M S - G
+1 part1_018 : KeyCodeInput 16 J - S - G J - B M - D G - W - D
+1 part1_019 : KeyCodeInput 16 G - W B - M - D G - W D - G W -
+1 part1_020 : KeyCodeInput 16 V - N S - H W - S - H W - V N -
+1 part1_021 : KeyCodeInput 16 S H - W - S H - W V - N S - F -
+1 part1_022 : KeyCodeInput 16 J S - F J - V - N S - F J - S F
+1 part1_023 : KeyCodeInput 16 - J - C B - A G - Q A - G - Q C
+1 part1_024 : KeyCodeInput 16 - B A - G - Q A - G Q - C V - N
+1 part1_025 : KeyCodeInput 16 - A F - N A - F - C V - N A - F
+1 part1_026 : KeyCodeInput 16 N - A - F X - V N - A F - N - A
+1 part1_027 : KeyCodeInput 16 F - X V - N - A F - N A - F B -
+1 part1_028 : KeyCodeInput 16 X - B M - F B - M F - B - X B -
+1 part1_029 : KeyCodeInput 16 M F - B - M F - Z C - B A - D -
+1 part1_030 : KeyCodeInput 16 B A - D Z - C - B A - D B - A D
+1 part1_031 : KeyCodeInput 16 - Z - B M - A D - M A - D - Z B
+1 part1_032 : KeyCodeInput 16 - M A - D - M A - D V - V N - A
+1 part1_033 : KeyCodeInput 16 - D N - A D - V V - N - A D - N
+1 part1_034 : KeyCodeInput 16 A - D - B Z - N A - D N - A - D
+1 part1_035 : KeyCodeInput 16 B - Z N - A - D N - A D - N V -
+1 part1_036 : KeyCodeInput 16 M - A S - M A - S N - V - M A -
+1 part1_037 : KeyCodeInput 16 S M - A - S B - V B - M S - B -
+1 part1_038 : KeyCodeInput 16 M S - B V - B M - S - B M - S B
+1 part1_039 : KeyCodeInput 16 - C - B A - D B - A D - B - C B
+1 part1_040 : KeyCodeInput 16 - A D - B - A D - B X - B A - F
+1 part1_041 : KeyCodeInput 16 - B A - F B - X B - A - F B - A
+1 part1_042 : KeyCodeInput 16 F - B - X B - M F - B M - F - B
+1 part1_043 : KeyCodeInput 16 X - B M - F B - M - F B - C N -
+1 part1_044 : KeyCodeInput 16 A - G N - A G - B C - N - A G -
+1 part1_045 : KeyCodeInput 16 N A - G - B C - B A - G B - A -
+1 part1_046 : KeyCodeInput 16 G B - C B - A G - B - A G - B X
+1 part1_047 : KeyCodeInput 16 - B - A F - B A - F - B X - B A
+1 part1_048 : KeyCodeInput 16 - F - B A - F B - X - B M - F B
+1 part1_049 : KeyCodeInput 16 - M - F B - X - B M - F B - M -
+1 part1_050 : KeyCodeInput 16 F Z - Z - B M - D - B - M D - Z
+1 part1_051 : KeyCodeInput 16 - Z B - M - D - B M - D - Z - Z
+1 part1_052 : KeyCodeInput 16 - V - N - A F - A - N - A - N -
+1 part1_053 : KeyCodeInput 16 V - N - V - X - V - X - Z - M -
+1 part1_054 : KeyCodeInput 16 G - J - W - R - W - J - W - J -
+1 part1_055 : KeyCodeInput 16 G - J - S - F - - D - S - Z - -
+1 part1_056 : KeyCodeInput 16 - Z - - D - - - G - - Q - - - -
+1 part1_057 : KeyCodeInput 16 - - - - - - - - - - - - - - - -
+1 part1_058 : KeyCodeInput 16 - - - - - - - - - - - - - - - -
+
+# part2：赋格
+section part2 60
+1 part2_001 : KeyCodeInput 16 - - - A - - - S - - - D - - - F
+1 part2_002 : KeyCodeInput 16 - - - - - G F D - - - H - - - S
+1 part2_003 : KeyCodeInput 16 - - - G F G - - - H - G - F - D
+1 part2_004 : KeyCodeInput 16 - F - D+G - S - A+H - S - A+J - M - N+Q
+1 part2_005 : KeyCodeInput 16 - - - G - W Q G+J - - - E - - - H
+1 part2_006 : KeyCodeInput 16 - - - G+W Q D+W - G - E - S+W - Q - G+J
+1 part2_007 : KeyCodeInput 16 - G - B+F+H - J - N+D+Q - J - M+S+Q - W - A+E
+1 part2_008 : KeyCodeInput 16 - W - E - S+T A M+T - - - D+G+J - - - N+Q
+1 part2_009 : KeyCodeInput 16 - - - S+F+H A S+D - F+W - D+Q - S+J - A+H - M+G
+1 part2_010 : KeyCodeInput 16 - F - Z+A+D - G - X+S+F - D - C+M+F - G - V+N+A+H
+1 part2_011 : KeyCodeInput 16 - G - S+F+H - B+J V C+B+Q - G - N+A+F - D - X+F
+1 part2_012 : KeyCodeInput 16 - N - B+M+S - A - S G N+J - B - V - C+B
+1 part2_013 : KeyCodeInput 16 - V - C+Q - X - Z+W - X - Z+B+E - M - N+R
+1 part2_014 : KeyCodeInput 16 - - - X+M - T R N+A+E - - - B+Y - S A B+M+W
+1 part2_015 : KeyCodeInput 16 - N - M+D+T R B+T - X+N - Y - X+S+T - R - N+E
+1 part2_016 : KeyCodeInput 16 - D - S+Y T A+Y - C+M - U - D+Y - T - N+R
+1 part2_017 : KeyCodeInput 16 - M - A+G - S - A+S+H - M - N+J - B - A+Q+E
+1 part2_018 : KeyCodeInput 16 - M - A - N+W+T Q D+J+T - S - A+E - M - A+H
+1 part2_019 : KeyCodeInput 16 - N - M+J Q A+W - S+T - A+E - M+W - N+Q - B+J+T
+1 part2_020 : KeyCodeInput 16 - R - B+E - W - N+Q - W - M+S+Q - J Z+D+H -
+1 part2_021 : KeyCodeInput 16 Q - G+J - X+H Z M+G - - - C - H G N+G -
+1 part2_022 : KeyCodeInput 16 Q - X+J Z X+H - D+H - C - X+H+E H Z+H - M+W -
+1 part2_023 : KeyCodeInput 16 - J - C+H+Q - H+J - B+G+H - H - X+N+F+H - J - Z+N+D+Q
+1 part2_024 : KeyCodeInput 16 - G - V+S+H - M+H N N+J - D - C+A+G+H - H+J - B+H+Q
+1 part2_025 : KeyCodeInput 16 - H - - X+M+H+R N M+J - H+E - A+G - C+M+H+W - N+H -
+1 part2_026 : KeyCodeInput 16 V+N+J Q W - C+N+Q - X+J - C+Q - J Q N+J+Q J H -
+1 part2_027 : KeyCodeInput 16 N+H - - - - A - - - S - - - B+D - -
+1 part2_028 : KeyCodeInput 16 - N+F - - - M - G F A+D - - - H - S
+1 part2_029 : KeyCodeInput 16 A M+S - - - - B+D+G - - - N - H - M+S+G -
+1 part2_030 : KeyCodeInput 16 F - Z+D - - - B+D+G - X Z M+S+G+H - - - C+G+J -
+1 part2_031 : KeyCodeInput 16 - - - N+A+Q - - - X+N+G - W Q D+H+J - C - X+D+H+Q
+1 part2_032 : KeyCodeInput 16 - Z - M+S+W - - - M+G+E - - - N+H+R - - - B+J
+1 part2_033 : KeyCodeInput 16 - T R - N+Q+E - - - B+N+Y - W Q B+M+J+W - - -
+1 part2_034 : KeyCodeInput 16 C+S+E R T - X+S+H - Y - W+T - D+R S C+A+E - E -
+1 part2_035 : KeyCodeInput 16 V+F+W+Y - Q - - B+M+J+W - - - D+T+U - N B V+W+Y - F
+1 part2_036 : KeyCodeInput 16 - M+D+W+T - S+R - C+S+E+T - R - N+W+T - E - W+R - M+T
+1 part2_037 : KeyCodeInput 16 - N+E+Y T B+R T - V+H+Y - C+W - V+N+W - X+T - B+M+E W
+1 part2_038 : KeyCodeInput 16 E - N+S+D - W - X+S+G+W - - - G - D S A+H -
+1 part2_039 : KeyCodeInput 16 - - G - J H - M+G - C - X+D+Q - Z - M+G
+1 part2_040 : KeyCodeInput 16 - N+G - B+D+J - B+S - C+A - Q - C+J - H - B+G
+1 part2_041 : KeyCodeInput 16 - - G - B+D+G - S - D+H - S - N+A+J - B+M -
+1 part2_042 : KeyCodeInput 16 B+N+S+Q - B - X+N - - B+W Q B+J - H - M+G+E - F
+1 part2_043 : KeyCodeInput 16 - B+A+D+H - G - S+F+W - H - - B+D+G - E - W -
+1 part2_044 : KeyCodeInput 16 F+Q D S+G+J - H+Q - G+J+W - E - N+A+Q+R - T - - F+Y
+1 part2_045 : KeyCodeInput 16 D F+T - M+W+R - G+E - A+F+G+W - D+Q - V+S G N+J - B
+1 part2_046 : KeyCodeInput 16 - - V - C+D+Q - X - Z+S+F+W - M - Z+G - X -
+1 part2_047 : KeyCodeInput 16 C+B+D+Q - V - B+S - - - - B+J J+Q - - Z+D+Q - -
+1 part2_048 : KeyCodeInput 16 - Z+H - - - X+J - - - - C+G+J - - - Z+V+H -
+1 part2_049 : KeyCodeInput 16 - - F+W - B - V C+G - - - N+H+Q - - - Z+X+J+W
+1 part2_050 : KeyCodeInput 16 - - - B+E - - Q J H+R - N - B+W - V -
+1 part2_051 : KeyCodeInput 16 Z+C+G - X+Y - - C+Q+T - V+R - B+E - N+W+R - M+Q+E - B+J+W
+1 part2_052 : KeyCodeInput 16 - - Z+N+H+Q - C+J - V+H - B+G - - N+F - M+G - A+F
+1 part2_053 : KeyCodeInput 16 - N+D - Z+M+S - - G H J - Q - - W - E
+1 part2_054 : KeyCodeInput 16 - R - - G - A+H Q W - E R - T - -
+1 part2_055 : KeyCodeInput 16 Y - - R - - W - - U - - Q+E+T - - -
+1 part2_056 : KeyCodeInput 16 - - - - - - - - - - - - - - - -
+1 part2_057 : KeyCodeInput 16 - - - - - - - - - - - - - - - -
+1 part2_058 : KeyCodeInput 16 - - - - - - - - - - - - - - - -
+1 part2_059 : KeyCodeInput 16 - - - - - - - - - - - - - - - -
+1 part2_060 : KeyCodeInput 16 - - - - - - - - - - - - - - - -

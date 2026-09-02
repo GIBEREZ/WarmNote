@@ -1,0 +1,35 @@
+# 注册一个内置动作层，并为最终生成的创建函数和注册表累积代码。
+function(warmnote_add_action_layer action_type class_name)
+    if(NOT ARGC EQUAL 2)
+        message(FATAL_ERROR "warmnote_add_action_layer requires an action type and a class name.")
+    endif()
+    if(NOT action_type MATCHES "^[A-Za-z][A-Za-z0-9_]*$")
+        message(FATAL_ERROR "Invalid WarmNote action type: ${action_type}")
+    endif()
+    if(NOT class_name MATCHES "^[A-Za-z_][A-Za-z0-9_]*$")
+        message(FATAL_ERROR "Invalid WarmNote action layer class name: ${class_name}")
+    endif()
+
+    list(FIND WARMNOTE_ACTION_LAYER_TYPES "${action_type}" action_type_index)
+    if(NOT action_type_index EQUAL -1)
+        message(FATAL_ERROR "WarmNote action type is registered more than once: ${action_type}")
+    endif()
+
+    set(action_layer_header "${CMAKE_CURRENT_SOURCE_DIR}/include/ActionLayer/${class_name}.h")
+    set(action_layer_source "${CMAKE_CURRENT_SOURCE_DIR}/include/ActionLayer/${class_name}.cpp")
+    if(NOT EXISTS "${action_layer_header}" OR NOT EXISTS "${action_layer_source}")
+        message(FATAL_ERROR "WarmNote action layer files do not exist for class: ${class_name}")
+    endif()
+
+    list(APPEND WARMNOTE_ACTION_LAYER_TYPES "${action_type}")
+    list(APPEND WARMNOTE_ACTION_LAYER_SOURCES "${action_layer_header}" "${action_layer_source}")
+    string(APPEND WARMNOTE_ACTION_LAYER_DECLARATIONS "#include \"ActionLayer/${class_name}.h\"\nDEFINE_ACTION_LAYER_CREATOR(${class_name})\n")
+    string(APPEND WARMNOTE_ACTION_LAYER_REGISTRY "    {\"${action_type}\", &${class_name}_action_layer_creator},\n")
+
+    message(STATUS "Loaded ActionLayer: ${action_type} -> ${class_name} (${action_layer_source})")
+
+    set(WARMNOTE_ACTION_LAYER_TYPES "${WARMNOTE_ACTION_LAYER_TYPES}" PARENT_SCOPE)
+    set(WARMNOTE_ACTION_LAYER_SOURCES "${WARMNOTE_ACTION_LAYER_SOURCES}" PARENT_SCOPE)
+    set(WARMNOTE_ACTION_LAYER_DECLARATIONS "${WARMNOTE_ACTION_LAYER_DECLARATIONS}" PARENT_SCOPE)
+    set(WARMNOTE_ACTION_LAYER_REGISTRY "${WARMNOTE_ACTION_LAYER_REGISTRY}" PARENT_SCOPE)
+endfunction()

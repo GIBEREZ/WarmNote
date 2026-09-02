@@ -1,0 +1,167 @@
+name 群青（慢速变奏）
+duration_ms 274000
+instrument 10001
+1464750897
+1 10 137
+# WarmNote Score Param
+# 转换自 群青（键盘）.txt
+# 转换规则：/分拍，空格及相邻字母表示拍内连续动作，括号表示组合键
+meta 120 4 4 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+section part1 14
+1 part1_001 : KeyCodeInput 4 V+A+D S D,H J,Q
+1 part1_002 : KeyCodeInput 4 B+S+J Q J,G D,S
+1 part1_003 : KeyCodeInput 4 C+B+D S D,H G,D
+1 part1_004 : KeyCodeInput 4 C+N+A - X+B+N,M A,S
+1 part1_005 : KeyCodeInput 4 V+A+D S D H,G
+1 part1_006 : KeyCodeInput 4 B+S,H J D S,A
+1 part1_007 : KeyCodeInput 4 C+B+S,S A,S G F,F
+1 part1_008 : KeyCodeInput 4 C+N,D D X+B B+A,S
+1 part1_009 : KeyCodeInput 4 V+A+D,V V+S D,H V+J,Q
+1 part1_010 : KeyCodeInput 4 B+S+J,B B+Q J,G B+S,S
+1 part1_011 : KeyCodeInput 4 C+B+D,C C+S C+B+M+D,H B+G,D
+1 part1_012 : KeyCodeInput 4 C+N+A,N N+S X+B+D,D B+S,A
+1 part1_013 : KeyCodeInput 4 Z+V+A,V V+S V+N+D,D V+S,A
+1 part1_014 : KeyCodeInput 4 X+B+A,X X+B X+B+N,A B+A
+
+section part2 8
+1 part2_001 : KeyCodeInput 4 V+A+D+H,Q H Q Q,W
+1 part2_002 : KeyCodeInput 4 E,R E Q,W E,R
+1 part2_003 : KeyCodeInput 4 Z+B+D+E,Q Q W E,R
+1 part2_004 : KeyCodeInput 4 E,Q Q W Q
+1 part2_005 : KeyCodeInput 4 V+A+D+H,Q H Q Q,W
+1 part2_006 : KeyCodeInput 4 B+S+E,R E Q,W E,R
+1 part2_007 : KeyCodeInput 4 Z+B+D+T,W Q W Q
+1 part2_008 : KeyCodeInput 4 C+M+S C C+S+Q+E -
+
+section part3 14
+1 part3_001 : KeyCodeInput 4 V+A+D+Q,H,V J,V+Q N+A,H V+J,Q
+1 part3_002 : KeyCodeInput 4 B+S,J,B Q,B+W M+S,G B+H,J
+1 part3_003 : KeyCodeInput 4 C+B,G,C H,C+J M+S,G C+S,S
+1 part3_004 : KeyCodeInput 4 C+N,G,C S,C+D N+A,H B+G,A
+1 part3_005 : KeyCodeInput 4 Z+V,H,V G,V+A V+N,A V+H,G
+1 part3_006 : KeyCodeInput 4 B+S,G,B W,B+J M+S,J B+R,E
+1 part3_007 : KeyCodeInput 4 C+B+W,C Q,C+W M+S,T C+R,R
+1 part3_008 : KeyCodeInput 4 C+N,E,N E,N A+D,H B+S+J,Q
+1 part3_009 : KeyCodeInput 4 V+A+D,H,V J,V+Q V+H J,V+Q
+1 part3_010 : KeyCodeInput 4 B+S,J,B Q,B+W B+G H,B+J
+1 part3_011 : KeyCodeInput 4 C+B,G,C J,C+R C+E W,C+Q
+1 part3_012 : KeyCodeInput 4 C+N+J,Q,N N+H X+B,H B+G,A
+1 part3_013 : KeyCodeInput 4 Z+V,H,V G,V+A V+N N,V+A
+1 part3_014 : KeyCodeInput 4 B+S+F,D,B F,B+G X+B+D,S B+A
+
+section interlude 6
+1 interlude_001 : KeyCodeInput 4 V+A+D+H,V G,V D,V,F V+G,D
+1 interlude_002 : KeyCodeInput 4 V,A,V V+A D,V,F V+G,D
+1 interlude_003 : KeyCodeInput 4 Z+B,A,Z Z+A D,Z,F Z+G,Q
+1 interlude_004 : KeyCodeInput 4 Z+B+D,W,Z E,Z+R E,Z,G B+A+Q
+1 interlude_005 : KeyCodeInput 4 V+A+D+H,V G,V D,V,F V+G,D
+1 interlude_006 : KeyCodeInput 4 C+M,S,C D,C+H C+S,J S+J+E
+
+section verse 16
+1 verse_001 : KeyCodeInput 4 V+A+D,V V+S D,H V+J,Q
+1 verse_002 : KeyCodeInput 4 B+S+J,B B+Q J,G B+D,S
+1 verse_003 : KeyCodeInput 4 C+B+D,C C+S D,H C+G,D
+1 verse_004 : KeyCodeInput 4 C+N+A,C C X+B+N,M B+A,S
+1 verse_005 : KeyCodeInput 4 V+A+D,V V+S D V+H,G
+1 verse_006 : KeyCodeInput 4 B+S,H,B B+J D B+S,A
+1 verse_007 : KeyCodeInput 4 C+B+S,S,C A,C+S G C+F,F
+1 verse_008 : KeyCodeInput 4 C+N,G,C D,C X+B B+A,S
+1 verse_009 : KeyCodeInput 4 V+A+D,V V+S N+A+D,H V+J,Q
+1 verse_010 : KeyCodeInput 4 B+S+J,B B+Q M+S+J,G B+S,S
+1 verse_011 : KeyCodeInput 4 C+B+D,C C+S B+M+D,H C+G,D
+1 verse_012 : KeyCodeInput 4 C+N+A,C C+S X+B+D,D B+S,A
+1 verse_013 : KeyCodeInput 4 Z+V+A,V V+S V+N+D,D V+S,A
+1 verse_014 : KeyCodeInput 4 X+B+A,B B+H M+S+G,D B+S,D
+1 verse_015 : KeyCodeInput 4 Z+B+A,Z Z B+A,B Z
+1 verse_016 : KeyCodeInput 4 C+M+S,C C C+S+E M,C
+
+section chorus1 14
+1 chorus1_001 : KeyCodeInput 4 V+A+D+Q,H,V J,V+Q N+A,H V+J,Q
+1 chorus1_002 : KeyCodeInput 4 B+S,J,B Q,B+W M+S,G B+H,J
+1 chorus1_003 : KeyCodeInput 4 C+B,G,C H,C+J M+S,G C+S,S
+1 chorus1_004 : KeyCodeInput 4 C+N,G,C S,C+D N+A,H B+G,A
+1 chorus1_005 : KeyCodeInput 4 Z+V,H,V G,V+A V+N,A V+H,G
+1 chorus1_006 : KeyCodeInput 4 X+B,G,B W,B+J M+S,J B+R,E
+1 chorus1_007 : KeyCodeInput 4 C+B+W,C Q,C+W M+S,T C+R,R
+1 chorus1_008 : KeyCodeInput 4 C+N,E,C E,C N+A,H B+J,Q
+1 chorus1_009 : KeyCodeInput 4 V+A+D,H,V J,V+Q V,H V+J,Q
+1 chorus1_010 : KeyCodeInput 4 B+S,J,B Q,B+W B,G B+H,J
+1 chorus1_011 : KeyCodeInput 4 C+B,G,C J,C+R C,E C+W,Q
+1 chorus1_012 : KeyCodeInput 4 C+N+W,Q,C C+H N+A,H B+G,A
+1 chorus1_013 : KeyCodeInput 4 Z+V,H,V G,V+A V,N V+N,A
+1 chorus1_014 : KeyCodeInput 4 X+B+F,D,B F,B+G X+B+D B+S
+
+section bridge 15
+1 bridge_001 : KeyCodeInput 4 Z+V+A,V+A V+N V+N+D V+N,M
+1 bridge_002 : KeyCodeInput 4 X+B+A,B+A B+N B+M+D B+D,F
+1 bridge_003 : KeyCodeInput 4 C+B+G,F,C D,C+F C+M+D,S C+A,S
+1 bridge_004 : KeyCodeInput 4 C+N+A,N+A C+N X+B+D B+S
+1 bridge_005 : KeyCodeInput 4 Z+V+A,V+A V+N V+N+D V+N,M
+1 bridge_006 : KeyCodeInput 4 X+B+A,B+A B+N B+M+D B+D,F
+1 bridge_007 : KeyCodeInput 4 C+B+G,F,C D,C+F C+M+G,D,G C,J,J
+1 bridge_008 : KeyCodeInput 4 C+N,Q,N J,C+G X+B+D B+D,F
+1 bridge_009 : KeyCodeInput 4 Z+V+D,A V+A,N,A V,D V+F,G
+1 bridge_010 : KeyCodeInput 4 X+B+D,A B+A,S,A B,D B+D,F
+1 bridge_011 : KeyCodeInput 4 C+B+G,F,C D,C+F M+S+G,E C+W,W
+1 bridge_012 : KeyCodeInput 4 C+N,Q,N W,N+Q A+D+E N+W
+1 bridge_013 : KeyCodeInput 4 Z+V+Q,V E,V+H V+N,H V+H,J
+1 bridge_014 : KeyCodeInput 4 X+B+Q,B E,B+W X+B,Q B+J,Q
+1 bridge_015 : KeyCodeInput 4 Z+B+D+Q,Z Z D,F,G Q,W,E
+
+section chorus2 16
+1 chorus2_001 : KeyCodeInput 4 V+A+D+Q,H J,Q N+A,H J,V+Q
+1 chorus2_002 : KeyCodeInput 4 B+S,J Q,W M+S,J H,D
+1 chorus2_003 : KeyCodeInput 4 C+B+G,C C+D M+S+D,G C+J,H
+1 chorus2_004 : KeyCodeInput 4 C+N,C C+J X+B+H,G B+F,D
+1 chorus2_005 : KeyCodeInput 4 Z+V+D,V N,V+A V,N V+A,D
+1 chorus2_006 : KeyCodeInput 4 X+B+S,B B+A B+M+S,J B+H,D
+1 chorus2_007 : KeyCodeInput 4 C+B+G,C C+D M+S+G,H C+J,J
+1 chorus2_008 : KeyCodeInput 4 C+N,H,C C X+B,H B+J,Q
+1 chorus2_009 : KeyCodeInput 4 V+A+D,H,V J,V+Q V,H V+J,Q
+1 chorus2_010 : KeyCodeInput 4 B+S,J,B Q,B+W B,G B+H,J
+1 chorus2_011 : KeyCodeInput 4 C+B,G,C J,C+R C,E C+W,Q
+1 chorus2_012 : KeyCodeInput 4 C+N+J,Q,C C+H X+B,H B+G,A
+1 chorus2_013 : KeyCodeInput 4 Z+V,H,V G,V+A V,N V+N,A
+1 chorus2_014 : KeyCodeInput 4 B+S+F,D,B F,B+G X+B+D,S B+A
+1 chorus2_015 : KeyCodeInput 4 Z+B+A,Z+B+S Z+B+D,Z+B+G Z+B+H,Z+B+Q Z+B+E,Z+B+Q
+1 chorus2_016 : KeyCodeInput 4 Z+B+G Z+B+Q E -
+
+section final_chorus 18
+1 final_chorus_001 : KeyCodeInput 4 V+A+D+Q,H,V J,V+Q N+A,H V+J,Q
+1 final_chorus_002 : KeyCodeInput 4 B+S,J,B Q,B+W M+S,G B+H,J
+1 final_chorus_003 : KeyCodeInput 4 C+B,G,C H,C+J M+S,G C+S,S
+1 final_chorus_004 : KeyCodeInput 4 C+N,G,C S,C+D X+B,H B+G,A
+1 final_chorus_005 : KeyCodeInput 4 Z+V,H,V G,V+A V+N,A V+H,G
+1 final_chorus_006 : KeyCodeInput 4 B+S,G,B W,B+J M+S,J B+R,E
+1 final_chorus_007 : KeyCodeInput 4 C+B+W,C Q,C+W M+S,T C+R,R
+1 final_chorus_008 : KeyCodeInput 4 C+N,T,C E,C X+B,H B+J,Q
+1 final_chorus_009 : KeyCodeInput 4 V+A+D,H,V J,V+Q N+A,H V+J,Q
+1 final_chorus_010 : KeyCodeInput 4 B+S,J,B Q,B+W M+S,G B+H,J
+1 final_chorus_011 : KeyCodeInput 4 C+B,G,C J,C+R M+S,E C+W,Q
+1 final_chorus_012 : KeyCodeInput 4 C+N+J,Q,C C+H X+B,H B+G,A
+1 final_chorus_013 : KeyCodeInput 4 Z+V,H,V G,V+A V,N V+N,A
+1 final_chorus_014 : KeyCodeInput 4 B+S+F,D,B F,B+G X+B+D,A B+S,S
+1 final_chorus_015 : KeyCodeInput 4 Z+B,A,Z Z Z B+A,H
+1 final_chorus_016 : KeyCodeInput 4 B+S+G,B B+H X+B,H B+G,A
+1 final_chorus_017 : KeyCodeInput 4 Z+V,H,V G,V+A V,N V+N,A
+1 final_chorus_018 : KeyCodeInput 4 B+S+F,D,B F,B+G D,S B+A
+
+section outro 16
+1 outro_001 : KeyCodeInput 4 V+A+D+H,Q,V V+H Q,V V+Q,W
+1 outro_002 : KeyCodeInput 4 V+A+E,R,V E,V Q,V,W V+E,R
+1 outro_003 : KeyCodeInput 4 Z+B+D+E,Z+Q Z+Q Z,W Z+E,R
+1 outro_004 : KeyCodeInput 4 Z+B+E,Z+Q Z+Q Z,W Z+Q
+1 outro_005 : KeyCodeInput 4 V+A+D+H,Q,V V+H Q,V V+Q,W
+1 outro_006 : KeyCodeInput 4 V+A+E,R,V E,V Q,V,W V+E,R
+1 outro_007 : KeyCodeInput 4 Z+B+D+T,Z+W Z+Q Z,E Z+E,R
+1 outro_008 : KeyCodeInput 4 Z+B+T,Z+Y Z+T Z,E Z+B+W,Q
+1 outro_009 : KeyCodeInput 4 V+A+D+H,Q,V V+H Q,V V+Q,W
+1 outro_010 : KeyCodeInput 4 B+S+E,R,B E,B Q,B,W B+E,R
+1 outro_011 : KeyCodeInput 4 C+B+E,C+Q C+Q C,W C+E,R
+1 outro_012 : KeyCodeInput 4 C+N+E,N+Q N+Q N,W X+B+Q
+1 outro_013 : KeyCodeInput 4 V+A+D+H,Q,V V+H Q,V V+Q,W
+1 outro_014 : KeyCodeInput 4 B+S+E,R,B E,B Q,B,W B+E,R
+1 outro_015 : KeyCodeInput 4 T,W Q E E,R
+1 outro_016 : KeyCodeInput 4 T,W Q - -

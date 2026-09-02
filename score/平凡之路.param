@@ -1,0 +1,145 @@
+name 平凡之路
+duration_ms 304390
+instrument 10001
+1464750897
+1 10 104
+# WarmNote Score Param
+# 来源：https://www.bilibili.com/opus/835213483743117317
+# BPM按谱面总拍数和原演奏视频时长估算
+# 转换规则：/分拍，括号和方括号表示组合键，其他字母表示拍内连续动作
+meta 84 4 4 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+# part1：前奏
+section part1 4
+1 part1_001 : KeyCodeInput 4 N,C D,A V,Z F,A
+1 part1_002 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part1_003 : KeyCodeInput 4 N,C D,A V,Z F,A
+1 part1_004 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+
+# part2：主歌
+section part2 16
+1 part2_001 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z+A N+S,Z+D,D
+1 part2_002 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part2_003 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z,G A+G,V,F
+1 part2_004 : KeyCodeInput 4 Z+D,B D,A B+M,A S,B
+1 part2_005 : KeyCodeInput 4 N,C+D A+D,C+H V,Z+A N+S,Z+D
+1 part2_006 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part2_007 : KeyCodeInput 4 N,C+D A+D,C+A V+F,Z+F,F A,V+D
+1 part2_008 : KeyCodeInput 4 Z+A,B D,A B+M,A S,B
+1 part2_009 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z+A N+S,Z+D,D
+1 part2_010 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part2_011 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z,G A+G,V,F
+1 part2_012 : KeyCodeInput 4 Z+D,B D,A B+M,A S,B
+1 part2_013 : KeyCodeInput 4 N,C+D A+D,C+H V,Z+A N+S,Z+D
+1 part2_014 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part2_015 : KeyCodeInput 4 N,C+D A+D,C+A V+F,Z+F,F A,V+D
+1 part2_016 : KeyCodeInput 4 Z+A,B D,A B+M,A+G S+H,B+J
+
+# part3：副歌
+section part3 8
+1 part3_001 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+G,V+F,D
+1 part3_002 : KeyCodeInput 4 Z,B+D A+D,A+D,S X+B,B+G M+S+H,B+J
+1 part3_003 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+H,V+Q,Q
+1 part3_004 : KeyCodeInput 4 Z,B+Q A+D+Q,B+Q,W X+B,B,G M+S+H,B+J
+1 part3_005 : KeyCodeInput 4 N+Q,C+J,Q A+D,E,C V+Q+Y,Z,J+T A+F,V+H+R
+1 part3_006 : KeyCodeInput 4 Z+G+E,B A+D+G+E,Z+F+W X+B,B M+S+H,B+J
+1 part3_007 : KeyCodeInput 4 N+Q,C A+D+Q,C+W,Q V,Z,Q A+G+J,Q,V,W
+1 part3_008 : KeyCodeInput 4 X+B,B M+S+Q,B+J,Q Z,B A+D
+
+# part4：间奏
+section part4 4
+1 part4_001 : KeyCodeInput 4 N,C D,A V,Z F,A
+1 part4_002 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part4_003 : KeyCodeInput 4 N,C D,A V,Z F,A
+1 part4_004 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+
+# part5：主歌
+section part5 8
+1 part5_001 : KeyCodeInput 4 N,C+D D,H,H V,A N+A+S,D,D
+1 part5_002 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part5_003 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z,G A+G,V,F
+1 part5_004 : KeyCodeInput 4 Z+D,B D,A B+M,A S,B
+1 part5_005 : KeyCodeInput 4 N,C+D,D A+D,C+H V,Z+A,A N+S,Z+D
+1 part5_006 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part5_007 : KeyCodeInput 4 N,C+D A+D,C+A V+F,Z+F,F A,V+D
+1 part5_008 : KeyCodeInput 4 Z+A,B D,A B+M,A+G S+H,B+J
+
+# part6：副歌
+section part6 8
+1 part6_001 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H,V H,V,Z N+A+G,V+F,D
+1 part6_002 : KeyCodeInput 4 Z,B+D A+D,Z+D,B+S B,X+G M+S+H,X+J
+1 part6_003 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H,V H,V,Z N+A+H,V+Q,Q
+1 part6_004 : KeyCodeInput 4 Z,B+Q A+D+Q,Z+Q,B+W B,X+G M+S+H,X+J
+1 part6_005 : KeyCodeInput 4 N+Q,C+J,Q A+D,E,C,V Q+Y,V,Z,J+T N+A,V+H+R
+1 part6_006 : KeyCodeInput 4 Z+G+E,B A+D+G+E,Z+F+W,B B,X M+S+H,X+J
+1 part6_007 : KeyCodeInput 4 N+Q,C,Q A+D+Q,C+W,V+Q V,Z,Q N+A+J,Q,V,W
+1 part6_008 : KeyCodeInput 4 B,X M+S+Q,B+J,Z+Q Z,B A+D,Z
+
+# part7：间奏
+section part7 16
+1 part7_001 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+J,Q N+A+J,V+G
+1 part7_002 : KeyCodeInput 4 Z+G,B+J,Q A+D,Z+G,Q B+J,X+G,H M+S+J,X+G
+1 part7_003 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+J,Q N+A+W,V+G
+1 part7_004 : KeyCodeInput 4 Z+G,B+J,Q A+D,Z+G,J B,Q,X+W M+S,X
+1 part7_005 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+J,Q N+A+J,V+G
+1 part7_006 : KeyCodeInput 4 Z,B+G,Q A+D,Z+G,Q B+M,X+G,H M+S+J,X+G
+1 part7_007 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+W,E N+A+R,V+E
+1 part7_008 : KeyCodeInput 4 Z+Q,B+G,Q A+D+W,Z+G,W B,E,X+R M+S+E,X
+1 part7_009 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+J,Q N+A+J,V+G
+1 part7_010 : KeyCodeInput 4 Z+G,B+J,Q A+D,Z+G,J B+Q,X+J,H M+S+J,X+G
+1 part7_011 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+J,Q N+A+W,V+G
+1 part7_012 : KeyCodeInput 4 Z+G,B+J,Q A+D,Z+G,J B,Q,X+W M+S,X
+1 part7_013 : KeyCodeInput 4 N,C+W,E A+D,C+G,W V+E,Z+R,T N+A+Y,V+T
+1 part7_014 : KeyCodeInput 4 Z+T,B+R,T A+D,Z B+R,X+E,W M+S+E,X+Q
+1 part7_015 : KeyCodeInput 4 N+G,C+J,Q A+D,C+G,J V+Q,Z+W,E N+A+R,V+E
+1 part7_016 : KeyCodeInput 4 Z+G,B+J,Q A+D,Z+G,W B,E,X+R M+S+E,X
+
+# part8：桥段
+section part8 8
+1 part8_001 : KeyCodeInput 4 N,C+Q A+D+Q,C+Q V,Z+Q N+A+Q,Q,V+Q
+1 part8_002 : KeyCodeInput 4 Z,B+Q A+D+Q,Q,Z+J B,X+J,J M+S+J,X+G
+1 part8_003 : KeyCodeInput 4 N,C+Q A+D+Q,C+Q V,Z+Q N+A+Q,Q,V+Q
+1 part8_004 : KeyCodeInput 4 Z,B+Q A+D+Q,Q,Z+J B,X+J,J M+S+J,X+Q
+1 part8_005 : KeyCodeInput 4 N,C+Q A+D+Q,C+Q V,Z+Q N+A+Q,Q,V+Q
+1 part8_006 : KeyCodeInput 4 Z,B+Q A+D+Q,Q,Z+J B,X+J,J M+S+J,X+G
+1 part8_007 : KeyCodeInput 4 N,C+Q A+D+Q,C+Q V,Z+Q N+A+Q,Q,V+Q
+1 part8_008 : KeyCodeInput 4 Z,B+Q A+D+Q,Q,Z+J B,X+G M+S+H,X+J
+
+# part9：副歌
+section part9 24
+1 part9_001 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+G,V+F,D
+1 part9_002 : KeyCodeInput 4 Z,B+D A+D,Z+D,S X+B,B+G M+S+H,B+J
+1 part9_003 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+H,V+Q,Q
+1 part9_004 : KeyCodeInput 4 Z,B+Q A+D+Q,B+Q,W X+B,B+G M+S+H,B+J
+1 part9_005 : KeyCodeInput 4 N+Q,C+J,Q A+D,E,C V+Q+Y,Z,J+T A+F,V+H+R
+1 part9_006 : KeyCodeInput 4 Z+G+E,B A+D+G+E,Z+F+W X+B,B M+S+H,B+J
+1 part9_007 : KeyCodeInput 4 N+Q,C A+D+Q,C+W,Q V,Z,Q A+G+J,Q,V,W
+1 part9_008 : KeyCodeInput 4 X+B,B M+S+Q,B+J,Q Z,B+G A+D+H,B+J
+1 part9_009 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+G,V+F,D
+1 part9_010 : KeyCodeInput 4 Z,B+D A+D,Z+D,S X+B,B+G M+S+H,B+J
+1 part9_011 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+H,V+Q,Q
+1 part9_012 : KeyCodeInput 4 Z,B+Q A+D+Q,B+Q,W X+B,B+G M+S+H,B+J
+1 part9_013 : KeyCodeInput 4 N+Q,C+J,Q A+D,E,C V+Q+Y,Z,J+T A+F,V+H+R
+1 part9_014 : KeyCodeInput 4 Z+G+E,B A+D+G+E,Z+F+W X+B,B M+S+H,B+J
+1 part9_015 : KeyCodeInput 4 N+Q,C,Q A+D+Q,C+W,Q V,Z,Q A+G+J,Q,V,W
+1 part9_016 : KeyCodeInput 4 X+B,B M+S+Q,B+J,Q Z,B+G A+D+H,B+J
+1 part9_017 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+G,V+F,D
+1 part9_018 : KeyCodeInput 4 Z,B+D A+D,Z+D,S X+B,B+G M+S+H,B+J
+1 part9_019 : KeyCodeInput 4 N+Q,C+J,Q A+D,G,C+H V+H,Z N+A+H,V+Q,Q
+1 part9_020 : KeyCodeInput 4 Z,B+Q A+D+Q,B+Q,W X+B,B+G M+S+H,B+J
+1 part9_021 : KeyCodeInput 4 N+Q,C+J,Q A+D,E,C V+Q+Y,Z,J+T A+F,V+H+R
+1 part9_022 : KeyCodeInput 4 Z+G+E,B A+D+G+E,Z+F+W X+B,B M+S+H,B+J
+1 part9_023 : KeyCodeInput 4 N+Q,C A+D+Q,C+W,Q V,Z,Q A+G+J,Q,V,W
+1 part9_024 : KeyCodeInput 4 X+B,B M+S+Q,B+J,Q Z,B A+D
+
+# part10：结尾
+section part10 8
+1 part10_001 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z+A N+S,Z+D,D
+1 part10_002 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part10_003 : KeyCodeInput 4 N,C+D A+D,C+H,H V,Z,G A+G,V,F
+1 part10_004 : KeyCodeInput 4 Z+D,B D,A B+M,A S,B
+1 part10_005 : KeyCodeInput 4 N,C+D,D A+D,C+H V,Z+A,A N+S,Z+D
+1 part10_006 : KeyCodeInput 4 Z,B D,A B+M,A S,B
+1 part10_007 : KeyCodeInput 4 N,C+D A+D,C+A V+F,Z+F,F A,V+D
+1 part10_008 : KeyCodeInput 4 Z+A,B D,A B+M,A S,B

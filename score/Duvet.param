@@ -1,0 +1,100 @@
+name Duvet
+duration_ms 198710
+instrument 10001
+1464750897
+1 6 77
+# WarmNote Score Param
+# 来源：https://www.bilibili.com/opus/1008431808283410434
+# 谱面依据用户提供的修正版重新校对
+# 转换规则：/分拍，括号表示组合键，其他连续字母表示拍内连续动作
+meta 93 4 4 80
+layout QWERTYU ASDFGHJ ZXCVBNM
+
+section part1 17
+1 part1_001 : KeyCodeInput 4 - Q J,H J,Q
+1 part1_002 : KeyCodeInput 4 V+W,Z,B,N+E V+H,Z+G H,V A,V+G
+1 part1_003 : KeyCodeInput 4 N,C,N,A N+Q,A J,C+H N+J,C+Q
+1 part1_004 : KeyCodeInput 4 X+H+W,N,S,F+H+W S+H+W J,N+Q X,N+J
+1 part1_005 : KeyCodeInput 4 N,C,N,A N+Q,A D+J,N+H C+J,N+Q
+1 part1_006 : KeyCodeInput 4 V+W,Z,B,N+E V+H,Z+G H,V A,V+G
+1 part1_007 : KeyCodeInput 4 N,C,N,A N+Q,A J,C+H N+J,C+Q
+1 part1_008 : KeyCodeInput 4 X+H+W,N,S,F+H+W S+H+W J,N+Q X,N+J
+1 part1_009 : KeyCodeInput 4 N,C,N,A N+H,A+E A+D+E,N+W A+D+E,N+W,E
+1 part1_010 : KeyCodeInput 4 V,Z,B+W,N Z+H,H E,E,V+E,E A,W,V+E,T
+1 part1_011 : KeyCodeInput 4 N+W,C,N,A N+Q,A J,C+H N+J,C+Q
+1 part1_012 : KeyCodeInput 4 X+W,N,S,F+H E,S+W J,N+Q X,N+J
+1 part1_013 : KeyCodeInput 4 N,C,N,A N+Y,A N+A+D+Y,N+A+D+T W,C+N+A,W
+1 part1_014 : KeyCodeInput 4 X+N+S,W X+N+S Y,C+N+A+T N+W,Z+V+N+W
+1 part1_015 : KeyCodeInput 4 W Z+V+N,V,A Y,A+F+T N+W,V+W
+1 part1_016 : KeyCodeInput 4 X+N,W N+S+F+W,N,S+Q Z+C+N,Z+C+N+W B,Z+V+N
+1 part1_017 : KeyCodeInput 4 - Q J,H J,Q
+
+section part2 20
+1 part2_001 : KeyCodeInput 4 V+W,Z,B,N+E V+H,Z+G H,V A,V+G
+1 part2_002 : KeyCodeInput 4 N,C,N,A N+Q,A J,C+H N+J,C+Q
+1 part2_003 : KeyCodeInput 4 X+H+W,N,S,F+H+W S+H+W J,N+Q X,N+J
+1 part2_004 : KeyCodeInput 4 N,C,N,A N+Q,A D+J,N+H C+J,N+Q
+1 part2_005 : KeyCodeInput 4 V+W,Z,B,N+E V+H,Z+G H,V A,V+G
+1 part2_006 : KeyCodeInput 4 N,C,N,A N+Q,A J,C+H N+J,C+Q
+1 part2_007 : KeyCodeInput 4 X+H+W,N,S,F+H+W S+H+W J,N+Q X,N+J
+1 part2_008 : KeyCodeInput 4 N,C,N,A N+H,A+E A+D+E,N+W A+D+E,N+W,E
+1 part2_009 : KeyCodeInput 4 V,Z,B+W,N Z+H,H E,E,V+E,E A,W,V+E,T
+1 part2_010 : KeyCodeInput 4 N+W,C,N,A N+Q,A J,C+H N+J,C+Q
+1 part2_011 : KeyCodeInput 4 X+W,N,S,F+H E,S+W J,N+Q X,N+J
+1 part2_012 : KeyCodeInput 4 N,C,N,A N+E+Y,A N+A+D+E+Y,N+A+D+W+T J+W,C+N+A,J+W
+1 part2_013 : KeyCodeInput 4 X+N+S,J+W X+N+S E+Y,C+N+A+W+T J+W,Z+V+N+J+W
+1 part2_014 : KeyCodeInput 4 J+W Z+V+N,V,A E+Y,A+F+W+T J+W,V+J+W
+1 part2_015 : KeyCodeInput 4 X+N,J+W N+S+F,N,S G+Q,Z+C+N+G+Q X+B+G+Q,Z+V+N+Q+R
+1 part2_016 : KeyCodeInput 4 N+T,X,N+Q+E,A N+E+Y,A N+A+D+E+Y,N+A+D+W+T J+W,C+N+A,J+W
+1 part2_017 : KeyCodeInput 4 X+N+S,J+W X+N+S E+Y,C+N+A+W+T N+J+W,Z+V+N+J+W
+1 part2_018 : KeyCodeInput 4 J+W Z+V+N+J+W,V,A E+Y,Z+V+W+T N+J+W,V+J+W
+1 part2_019 : KeyCodeInput 4 X+N,J+W N+S+F,N,S G+Q,Z+C+N+G+Q X+B+G+Q,Z+V+N+Q+R
+1 part2_020 : KeyCodeInput 4 T,Q+E - - -
+
+section part3 16
+1 part3_001 : KeyCodeInput 4 V+G,A,N,Z+G A,N,V+G,A N,V+G,A,N Z+H+J,V,H,J
+1 part3_002 : KeyCodeInput 4 N+Q,F,S,C+J F,S,M+H,S M+J,F,S A+W+E+R,S
+1 part3_003 : KeyCodeInput 4 X+E,G,F,X+E H,G,V+W,G F,N+Q,F,S S+J,F,N+Q,F
+1 part3_004 : KeyCodeInput 4 N+J,F,S,C+Q F,S,N+J,F G+H,N+F,S,F N+H,S,C+F,S
+1 part3_005 : KeyCodeInput 4 V+G,A,N,Z+G A,N,V+G,A N,V+G,A,N Z+H+J,V,H,J
+1 part3_006 : KeyCodeInput 4 N+Q,F,C+S,J F,S,M+H,S M+J,F,S A+W+E+R,S
+1 part3_007 : KeyCodeInput 4 X+W,G,F,X+E H,G,V+W,G F,N+E,H,G S+W,G,N+E,G
+1 part3_008 : KeyCodeInput 4 N+W,G,F,C+E H,G,N+Y,C+W Z+V+Q,Y,Z+V+W,Q Z+V+Y,W,Z+V+Q,J
+1 part3_009 : KeyCodeInput 4 Z+V+D,F,D,F N+A+G,F,G,V+H G,H,V+J,H A+Q,W,V+E,R
+1 part3_010 : KeyCodeInput 4 N+Q+E,C,N,A N+D+G,A D,N+S C+S,N+S
+1 part3_011 : KeyCodeInput 4 X+N+E,R,E,Q S+F+W,Q,G,X+H G,X+F,D N,F,X+D,F
+1 part3_012 : KeyCodeInput 4 N+Q+E,C,N,A N+H,A A+D+Q+T,N+E C+N+Q,C+N+W
+1 part3_013 : KeyCodeInput 4 Z+V+D,F,D,F N+A+G,F,G,V+H G,H,V+J,H A+Q,W,V+E,R
+1 part3_014 : KeyCodeInput 4 N+Q+E,C,N,A N+Q,A D,E,N+W C,N
+1 part3_015 : KeyCodeInput 4 X+N+T,Y,T,E S+F+R,E,Q,X+W G+Q,X+H,G N+G,F,X+D,F
+1 part3_016 : KeyCodeInput 4 N,C,N,A N+E+Y,A N+A+D+E+Y,N+A+D+W+T J+W,C+N+A,J+W
+
+section part4 8
+1 part4_001 : KeyCodeInput 4 X+N+S,J+W X+N+S C+N+A+E+Y,C+N+W+T X+B+J+W,Z+V+N+J+W
+1 part4_002 : KeyCodeInput 4 J+W Z+V+N,V,A E+Y,A+F+W+T N+J+W,V+J+W
+1 part4_003 : KeyCodeInput 4 X+N,J+W N+S+F,N,S Z+C+N+G+Q,C+N+G+Q X+B+G+Q,Z+V+N+Q+R
+1 part4_004 : KeyCodeInput 4 T,X+B+Q+E C+N+A+E+Y E+Y,N+A+D+W+T C+N+J+W,C+N+J+W
+1 part4_005 : KeyCodeInput 4 X+N+S,J+W X+N+S E+Y,C+N+A+W+T N+J+W,Z+V+N+J+W
+1 part4_006 : KeyCodeInput 4 J+W Z+V+N+J+W,V,A E+Y,A+F+W+T N+J+W,V+J+W
+1 part4_007 : KeyCodeInput 4 X+N,J+W N+S+F,N,S G+Q,Z+C+N+G+Q X+B+G+Q,Z+V+N+Q+R
+1 part4_008 : KeyCodeInput 4 T,Q+E - - -
+
+section part5 8
+1 part5_001 : KeyCodeInput 4 V+H+Q+T,Z,N,S V,N,S V,N,S V,N,S
+1 part5_002 : KeyCodeInput 4 X,V,N,S V,N,S Q+E,V,N+T,S Q,V,N+Q,S+H+Y
+1 part5_003 : KeyCodeInput 4 N,C,N,S C,N+Q,S C,N,S C,N+T,S
+1 part5_004 : KeyCodeInput 4 X,V,N,S V,N+Y,S T,V,N,S V,N,S
+1 part5_005 : KeyCodeInput 4 V,Z,N,S T,V,N+E,S+T V+E,N+T,S E,V+T,N,S+E
+1 part5_006 : KeyCodeInput 4 X+T,V,N+E,S+T V,N,S V,N+E,S T,V,N,S
+1 part5_007 : KeyCodeInput 4 N,C,N,S E,C+W,N+Q,S C+H,N,S+G C,N,S
+1 part5_008 : KeyCodeInput 4 X,V,N,S V,N,S E+Y,N+A+D+W+T C+N+J+W,Z+C+N+J+W
+
+section part6 8
+1 part6_001 : KeyCodeInput 4 X+N+S,J+W X+N+S C+N+A+E+Y,C+N+W+T X+B+J+W,Z+V+N+J+W
+1 part6_002 : KeyCodeInput 4 J+W Z+V+N,V,A E+Y,A+F+W+T N+J+W,V+J+W
+1 part6_003 : KeyCodeInput 4 X+N,J+W N+S+F,N,S Z+C+N+G+Q,C+N+G+Q X+B+G+Q,Z+V+N+Q+R
+1 part6_004 : KeyCodeInput 4 T,X+B+Q+E C+N+A+E+Y E+Y,N+A+D+W+T C+N+J+W,C+N+J+W
+1 part6_005 : KeyCodeInput 4 X+N+S,J+W X+N+S E+Y,C+N+A+W+T N+J+W,Z+V+N+J+W
+1 part6_006 : KeyCodeInput 4 J+W Z+V+N+J+W,V,A E+Y,A+F+W+T N+J+W,V+J+W
+1 part6_007 : KeyCodeInput 4 X+N,J+W N+S+F,N,S G+Q,Z+C+N+G+Q X+B+G+Q,Z+V+N+Q+R
+1 part6_008 : KeyCodeInput 4 T,Q+E - - -
